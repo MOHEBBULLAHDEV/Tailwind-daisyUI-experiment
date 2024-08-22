@@ -4,7 +4,12 @@ module.exports = {
     'index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        clifford: '#da373d',
+        "btn-color": '#ABEF5F',
+      }
+    }
   },
   plugins: [require('daisyui'),],
 }
